@@ -1,0 +1,257 @@
+{
+	"siteVersion": "2.28.0",
+	"race": [
+		{
+			"name": "Chimeric",
+			"source": "JKN05",
+			"page": 0,
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"darkvision": 60,
+	"additionalSpells": [
+		{
+			"innate": {
+				"3": {
+					"daily": {
+						"1": [
+							"detect magic",
+"faerie fire",
+"longstrider"
+						]
+					}
+				},
+				"5": {
+					"daily": {
+						"1": [
+							"darkness",
+"misty step",
+"pass without trace"
+						]
+					}
+				}
+			},
+			"ability": {
+				"choose": [
+					"int",
+					"wis",
+					"cha"
+				]
+			},
+			"known": {
+				"1": [
+					"druidcraft#c",
+"green-flame blade#c",
+"sacred flame#c",
+"starry wisp#c"
+				]
+			}
+		}
+	],
+			"traitTags": [
+				"Amphibious",
+				"Improved Resting",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true,
+					"common": true,
+					"elvish": true,
+					"orc": true,
+					"other": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Size:",
+							"entries": [
+								"Medium"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"You mature at the same rate humans do, but you live for centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Any."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Aquan, Common, Elvish, Orc, Umbral, and one extra language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition charmed} condition on yourself. You can't be magically put to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Resistance",
+					"entries": [
+						"Once per day, when you fail a saving throw to avoid the {@condition charmed} condition, you can use your {@variantrule Reaction|XPHB} to succeed on it instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have {@variantrule Proficiency|XPHB} in {@skill Perception|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chimeric Ancestry",
+					"entries": [
+						"Your hair is the pale green of the sea elves. Your skin has a shadowy tinge to it, reminiscent of the drow. Your eyes and ears are those of a human. Your build is that of an orc."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, you can move up to your speed toward a hostile creature you can see."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grim Visage",
+					"entries": [
+						"You have {@variantrule Proficiency|XPHB} in {@skill Intimidation|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ancestral Memory",
+					"entries": [
+						"You know the Druidcraft, Green-Flame Blade, Sacred Flame, and Starry Wisp cantrips. At 3rd level you learn the Detect Magic, Faerie Fire, and Longstrider spells. At 5th level you learn the {@variantrule Darkness|XPHB}, Misty Step, and Pass Without Trace spells. Spells learned in this way are always prepared and can be cast once per day without using a spell slot or components."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance",
+					"entries": [
+						"You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Pride of Arms",
+					"entries": [
+						"You have {@variantrule Proficiency|XPHB} with the {@item dagger|XPHB}, {@item glaive|XPHB}, {@item shortsword|XPHB}, {@item trident|XPHB}, {@item hand crossbow|XPHB}, {@item heavy crossbow|XPHB}, {@item light crossbow|XPHB}, {@item light repeating crossbow|OotA}, {@item longbow|XPHB}, and {@item shortbow|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hunter's Accuracy",
+					"entries": [
+						"When you roll a natural 1 on a ranged weapon attack, you can reroll once."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lingering Cold",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Starlight Step",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent. Starting at 5th level, immediately after you use this ability, each creature of your choice that you can see within 5 feet takes fire damage equal to your Charisma modifier (minimum 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Traveler in Darkness",
+					"entries": [
+						"You have advantage on any {@skill Arcana|XPHB} check to learn about a particular shadow road and how it functions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Blood",
+					"entries": [
+						"You gain a Wild Talent."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Rider",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on checks made to control ridable mounts and are able to use your Strength for Animal Handling checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Ranger",
+					"entries": [
+						"You have {@variantrule Proficiency|XPHB} in {@skill Survival|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Birthright",
+					"entries": [
+						"Your \"real\" parents, if they can be called that, hail from Aebrynis, where they rule a regency with the power of their bloodline. You gain a Bloodline."
+					]
+				}
+			]
+		}
+	]
+}
